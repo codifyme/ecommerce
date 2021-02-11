@@ -20,6 +20,9 @@
 		59E3571CEE2D36F6AF1DC8B3 /* libPods-ecommerce-ecommerceTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EC82DA4A18E5829B5A8B75E /* libPods-ecommerce-ecommerceTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		A4F5B57EE153E7AF3D43FB86 /* libPods-ecommerce-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96BBC63751623B2FFB7F5116 /* libPods-ecommerce-tvOSTests.a */; };
+		A87723FFDD6145A19CF10F4B /* CarmenSans-Regular (1).otf in Resources */ = {isa = PBXBuildFile; fileRef = F1CAD582778945329D6552E5 /* CarmenSans-Regular (1).otf */; };
+		F209A163F4894CCDB274D81B /* CarmenSans-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D9ADD48876064787963C8C1E /* CarmenSans-SemiBold.otf */; };
+		3A968E02A2824F12ADEFF350 /* CarmenSans-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = E663F528B76549F5964D5A55 /* CarmenSans-Thin.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +70,9 @@
 		BCF585CEDF5AA0C6D1002385 /* Pods-ecommerce-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ecommerce-tvOS.release.xcconfig"; path = "Target Support Files/Pods-ecommerce-tvOS/Pods-ecommerce-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		F1CAD582778945329D6552E5 /* CarmenSans-Regular (1).otf */ = {isa = PBXFileReference; name = "CarmenSans-Regular (1).otf"; path = "../assets/fonts/CarmenSans-Regular (1).otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D9ADD48876064787963C8C1E /* CarmenSans-SemiBold.otf */ = {isa = PBXFileReference; name = "CarmenSans-SemiBold.otf"; path = "../assets/fonts/CarmenSans-SemiBold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E663F528B76549F5964D5A55 /* CarmenSans-Thin.otf */ = {isa = PBXFileReference; name = "CarmenSans-Thin.otf"; path = "../assets/fonts/CarmenSans-Thin.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +171,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				E705E7ED524E58ED37415B80 /* Pods */,
+				93BEDDDAC1364EA6A3C8CA8B /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -197,6 +204,17 @@
 			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		93BEDDDAC1364EA6A3C8CA8B /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				F1CAD582778945329D6552E5 /* CarmenSans-Regular (1).otf */,
+				D9ADD48876064787963C8C1E /* CarmenSans-SemiBold.otf */,
+				E663F528B76549F5964D5A55 /* CarmenSans-Thin.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -342,6 +360,9 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				A87723FFDD6145A19CF10F4B /* CarmenSans-Regular (1).otf in Resources */,
+				F209A163F4894CCDB274D81B /* CarmenSans-SemiBold.otf in Resources */,
+				3A968E02A2824F12ADEFF350 /* CarmenSans-Thin.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
