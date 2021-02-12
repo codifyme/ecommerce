@@ -1,21 +1,21 @@
 import React from 'react';
 import {StyleSheet, View, Text} from 'react-native';
 
-import {Colors} from '../constants';
+import {COLORS} from '../constants';
 
 const Home = () => {
-    return(
-        <View>
-            <Text>Home</Text>
-        </View>
-    )
-}
+  return (
+    <View style={styles.container}>
+      <Text>Home</Text>
+    </View>
+  );
+};
 
-const styles = Stylesheet.create({
-    container:{
-        flex:1,
-        backgroundColor:Colors.white
-    }
-})
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: COLORS.white,
+  },
+});
+
 export default Home;
-
